@@ -1,0 +1,54 @@
+body {font-family: 'Roboto', sans-serif;}
+ul {text-decoration: none;} /*ai dat permisiune citind chatul sa se foloseasca si UL global*/
+
+
+:root {--main-nav-color: #2E2F42;
+       --heighlight-bgcolor: #404BBF;
+       --heighlight-color: white;
+       --ro400-s16-lh24: normal normal 400 16px/24px Roboto, sans-serif;
+       --ro500-s20-lh24: normal normal 500 20px/24px Roboto, sans-serif;
+       --ro500-s16-lh24: normal normal 500 16px/24px Roboto, sans-serif;
+       --logo-font: normal normal 700 18px/21px 'Raleway', sans-serif;
+       --current-section: #4D5AE5;
+       }
+ 
+/*HEADER/
+
+/*HEADER decoration*/
+.header-webstudio:hover,
+.header-webstudio:focus {border: 3px;
+        border-style: solid;
+        border-color:blueviolet;}
+
+.header-webstudio,
+.header-webstudio:active {border: 1px;
+          border-style: solid;
+          border-color:blueviolet;}
+
+/*LOGO decoration*/
+.logo {font: var(--logo-font);
+        text-decoration: none;}
+
+.logo-web {color:#4D5AE5;}
+
+.logo-studio-header  {color: var(--main-nav-color);}
+
+
+/*NAV decoration*/
+.nav-link {text-decoration: none;
+           font: var(--ro500-s16-lh24);}
+        
+.navigation-pages {list-style-type: none;}
+
+.nav-link {color: var(--main-nav-color);}
+.nav-link:active {border-bottom: 1px;
+                  border-style: solid;} /*temporari border*/
+.current {color: var(--current-section);}
+
+
+
+/*ADDRESS decoration*/
+.header-address li {font: var(--ro400-s16-lh24);
+                    color:#434455;
+                    list-style-type: none;}
+.header-address li:hover,:focus {color: var(--heighlight-bgcolor);}
