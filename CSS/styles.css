@@ -8,9 +8,10 @@ ul {text-decoration: none;} /*ai dat permisiune citind chatul sa se foloseasca s
        --ro400-s16-lh24: normal normal 400 16px/24px Roboto, sans-serif;
        --ro500-s20-lh24: normal normal 500 20px/24px Roboto, sans-serif;
        --ro500-s16-lh24: normal normal 500 16px/24px Roboto, sans-serif;
-       --logo-font: normal normal 700 18px/21px 'Raleway', sans-serif;
+       --logo-font: normal normal inherit 18px/21px 'Raleway', sans-serif;
        --current-section: #4D5AE5;
-       }
+       --first-header: normal normal 700 56px/60px Roboto, sans-serif;}
+
  
 /*HEADER/
 
@@ -52,3 +53,5 @@ ul {text-decoration: none;} /*ai dat permisiune citind chatul sa se foloseasca s
                     color:#434455;
                     list-style-type: none;}
 .header-address li:hover,:focus {color: var(--heighlight-bgcolor);}
+
+.first-header {font: val(--first-header);}
